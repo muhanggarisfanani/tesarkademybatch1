@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@700&family=Josefin+Sans:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+html {
+	scroll-behavior: smooth;
+	background-color: #cccccc;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	display: inline;
+}
+
+nav {
+	background-color: #ffc000;
+	padding: 16px 64px;
+	position: sticky;
+	top: 0;
+}
+
+nav a {
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	text-decoration: none;
+	vertical-align: middle;
+	transition: 500ms;
+}
+
+nav a:hover {
+	color: gray;
+	transition: 500ms;
+	font-size: 18px;
+}
+
+nav a:active {
+	color: white;
+}
+
+nav img {
+	height: 40px;
+	border-radius: 50%;
+	transition: 500ms;
+}
+
+nav img:hover {
+	height: 64px;
+	border-radius: 25%;
+	transition: 500ms;
+}
+
+nav ul {
+	display: inline;
+}
+
+nav li {
+	display: inline;
+	list-style-image: none;
+	padding: 0 0 0 20px;
+}
+
+nav input {
+	width: 70vw;
+	height: 32px;
+}
+
+main {
+	padding: 64px;
+}
+
+main table {
+	margin: auto;
+}
+
+main table th {
+	background-color: #ffc000;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+main table td {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 5px;
+}
